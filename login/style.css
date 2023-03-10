@@ -1,0 +1,108 @@
+
+ 
+#frm{
+
+	border: solid gray 1px;
+	width: 20%;
+	border-radius: 5px;
+	background-color:green;
+	padding: 50px;
+	margin: 100px auto;
+
+}
+#btn{
+	color: #fff;
+	background: #337ab7;
+	padding: 5px;
+	margin-left: 69%;
+}
+     
+
+
+
+
+     	body{
+		margin:0;
+		padding:0;
+		font-family: arial;
+		font-style: normal;
+		text-align: center;
+
+	}
+	.contai{
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100vh;
+		animation: animate 16s ease-in-out infinite;
+		background-size: cover; 
+	}
+	/*.outer{
+ position: absolute;
+ left: 0;
+ top: 0;
+ width: 100px;
+ height: 100vh;
+ background: rgba(0,0,0,0.5)
+
+	}*/
+
+	.detai{
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%,-50%);
+		text-align: center;
+        }
+        .detai h1{
+        	font-size: 3em;
+        	color:#b3003b;
+
+        }
+        .detai h2{
+        	text-transform: capitalize;
+        	color: white;
+        }
+        .detai h2 span:nth-child(1){
+        	color:#white;
+        }
+        .detai h2 span:nth-child(2){
+        	color:white;
+        }
+	@keyframes animate{
+		0%,100%{
+			background-image: url(3.JPG);
+		}
+		25%{
+			background-image: url(23.JPG);
+		}
+		50%{
+			background-image: url(1.JPG);
+			}
+		75%{
+			background-image: url(21.JPG);
+		}
+		80%{
+			background-image: url(26.JPEG);
+		}
+	}
+	#gestion{
+		padding: 10px;
+	    background-color: #3366cc;
+	    font-size: 20px;
+	    border-radius: 16px;
+	    cursor: pointer;
+	    width: 200px;
+	    margin-left: 240px;
+
+			}
+			 a{
+				color:white;
+			}
+			a:hover{
+				text-decoration: none;
+				color: #e6e6e6;
+
+			}
+     </style>
